@@ -1,0 +1,10 @@
+list1=[]
+for i in range(4):
+   n=int(input("enter the list"))
+   list1.append(n)
+list2=[]
+for j in range(5):
+    a=int(input("enter the list"))
+    list2.append(a)
+sum=sum(list1+list2)
+print(sum)

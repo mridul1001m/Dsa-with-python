@@ -1,0 +1,16 @@
+list=[]
+n=int(input("enter the no of  list elements "))
+for i in range(n):
+    a=int(input("enter the int "))
+    list.append(a)
+    
+print(list[0],"is the first element of the list")
+print(list[-1::],"is the last element of the list")
+
+for m in list:
+    print(m)
+print("are the elements in loop")
+
+print(list[::-1],"is the reverse order")
+
+    

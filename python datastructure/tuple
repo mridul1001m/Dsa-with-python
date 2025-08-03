@@ -1,0 +1,8 @@
+list=[]
+for i in range(4):
+    n=int(input("enter the list"))
+    list.append(n)
+tuple=tuple(list)
+for i in tuple:
+    print(i)
+    
