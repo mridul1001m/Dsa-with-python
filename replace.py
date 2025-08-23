@@ -1,0 +1,5 @@
+text=input("enter the text")
+new_text=input("enter the new text")
+old_text=input("enter the old text")
+updated_text=text.replace(old_text,new_text)
+print("updated text",updated_text)
